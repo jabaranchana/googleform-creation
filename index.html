@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dynamic Form Builder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="form-container">
+    <h1>Untitled Form</h1>
+    <p>Form Description</p>
+
+    <div id="questionContainer"></div>
+
+    <button onclick="addQuestion()">+ Add Question</button>
+    <button onclick="publishForm()">Publish</button>
+
+    <form id="generatedForm" style="margin-top: 30px;"></form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
