@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    background: #111;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .form-container {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .question-block {
+    background: #333;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 6px;
+  }
+  
+  input[type="text"],
+  select {
+    padding: 8px;
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
